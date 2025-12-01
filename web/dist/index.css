@@ -1,0 +1,5 @@
+/* web/dist/index.css - Extend provided for new elements */
+.passenger-count {
+    color: white;
+    font-weight: bold;
+}

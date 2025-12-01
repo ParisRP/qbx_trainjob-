@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<train_configs version="1">
+
+	<!-- Configuration Métro courte (4 wagons) -->
+	<train_config name="metro_config0" populate_train_dist="40.0" announce_stations="true"
+		doors_beep="true" carriages_hang="false" carriages_swing="false"
+		link_tracks_with_adjacent_stations="true" carriage_gap="-0.5">
+		<carriage model_name="metrotrain" max_peds_per_carriage="6" flip_model_dir="false"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+		<carriage model_name="metrotrain" max_peds_per_carriage="6" flip_model_dir="true"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+		<carriage model_name="metrotrain" max_peds_per_carriage="6" flip_model_dir="false"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+		<carriage model_name="metrotrain" max_peds_per_carriage="6" flip_model_dir="true"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+	</train_config>
+
+	<!-- Configuration Métro longue (6 wagons) -->
+	<train_config name="metro_config1" populate_train_dist="40.0" announce_stations="true"
+		doors_beep="true" carriages_hang="false" carriages_swing="false"
+		link_tracks_with_adjacent_stations="true" carriage_gap="-0.5">
+		<carriage model_name="metrotrain" max_peds_per_carriage="6" flip_model_dir="false"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+		<carriage model_name="metrotrain" max_peds_per_carriage="6" flip_model_dir="true"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+		<carriage model_name="metrotrain" max_peds_per_carriage="6" flip_model_dir="false"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+		<carriage model_name="metrotrain" max_peds_per_carriage="6" flip_model_dir="true"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+		<carriage model_name="metrotrain" max_peds_per_carriage="6" flip_model_dir="false"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+		<carriage model_name="metrotrain" max_peds_per_carriage="6" flip_model_dir="true"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+	</train_config>
+
+	<!-- Configuration Fret léger (5 wagons) -->
+	<train_config name="freight_config0" populate_train_dist="30.0" announce_stations="false"
+		doors_beep="false" carriages_hang="true" carriages_swing="true"
+		link_tracks_with_adjacent_stations="true" carriage_gap="-1.0">
+		<carriage model_name="freight" max_peds_per_carriage="2" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcont1" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcar" max_peds_per_carriage="2" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcont2" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="tankercar" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+	</train_config>
+
+	<!-- Configuration Fret moyen (7 wagons) -->
+	<train_config name="freight_config1" populate_train_dist="35.0" announce_stations="false"
+		doors_beep="false" carriages_hang="true" carriages_swing="true"
+		link_tracks_with_adjacent_stations="true" carriage_gap="-1.0">
+		<carriage model_name="freight" max_peds_per_carriage="2" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcar" max_peds_per_carriage="2" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcont1" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcont2" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcar2" max_peds_per_carriage="2" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="tankercar" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightgrain" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+	</train_config>
+
+	<!-- Configuration Fret lourd (10 wagons) -->
+	<train_config name="freight_config2" populate_train_dist="45.0" announce_stations="false"
+		doors_beep="false" carriages_hang="true" carriages_swing="true"
+		link_tracks_with_adjacent_stations="true" carriage_gap="-1.2">
+		<carriage model_name="freight" max_peds_per_carriage="2" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcont1" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="2" />
+		<carriage model_name="freightcar" max_peds_per_carriage="2" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcont2" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="2" />
+		<carriage model_name="freightcar2" max_peds_per_carriage="2" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="tankercar" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightgrain" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcar" max_peds_per_carriage="2" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+	</train_config>
+
+	<!-- Configuration Métro express (3 wagons) -->
+	<train_config name="metro_config2" populate_train_dist="35.0" announce_stations="true"
+		doors_beep="true" carriages_hang="false" carriages_swing="false"
+		link_tracks_with_adjacent_stations="true" carriage_gap="-0.5">
+		<carriage model_name="metrotrain" max_peds_per_carriage="8" flip_model_dir="false"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+		<carriage model_name="metrotrain" max_peds_per_carriage="8" flip_model_dir="true"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+		<carriage model_name="metrotrain" max_peds_per_carriage="8" flip_model_dir="false"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+	</train_config>
+
+	<!-- Configuration Fret mixte (8 wagons) -->
+	<train_config name="freight_config3" populate_train_dist="40.0" announce_stations="false"
+		doors_beep="false" carriages_hang="true" carriages_swing="true"
+		link_tracks_with_adjacent_stations="true" carriage_gap="-1.0">
+		<carriage model_name="freight" max_peds_per_carriage="3" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcar" max_peds_per_carriage="3" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcont1" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcar2" max_peds_per_carriage="3" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcont2" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="tankercar" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcar" max_peds_per_carriage="3" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightgrain" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+	</train_config>
+
+	<!-- Configuration Métro de nuit (5 wagons avec moins de places) -->
+	<train_config name="metro_config3" populate_train_dist="30.0" announce_stations="true"
+		doors_beep="true" carriages_hang="false" carriages_swing="false"
+		link_tracks_with_adjacent_stations="true" carriage_gap="-0.5">
+		<carriage model_name="metrotrain" max_peds_per_carriage="4" flip_model_dir="false"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+		<carriage model_name="metrotrain" max_peds_per_carriage="4" flip_model_dir="true"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+		<carriage model_name="metrotrain" max_peds_per_carriage="4" flip_model_dir="false"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+		<carriage model_name="metrotrain" max_peds_per_carriage="4" flip_model_dir="true"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+		<carriage model_name="metrotrain" max_peds_per_carriage="4" flip_model_dir="false"
+			do_interior_lights="true" carriage_vert_offset="0.4" repeat_count="1" />
+	</train_config>
+
+	<!-- Configuration Fret avec plus de places passagers -->
+	<train_config name="freight_config4" populate_train_dist="35.0" announce_stations="false"
+		doors_beep="false" carriages_hang="true" carriages_swing="true"
+		link_tracks_with_adjacent_stations="true" carriage_gap="-1.0">
+		<carriage model_name="freight" max_peds_per_carriage="4" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcar" max_peds_per_carriage="4" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="2" />
+		<carriage model_name="freightcont1" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+		<carriage model_name="freightcar2" max_peds_per_carriage="4" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="2" />
+		<carriage model_name="freightcont2" max_peds_per_carriage="0" flip_model_dir="false"
+			do_interior_lights="false" carriage_vert_offset="0.0" repeat_count="1" />
+	</train_config>
+	
+	<CollisionConfig>
+        <trainCollisionEnabled>true</trainCollisionEnabled>
+        <carriageCollisionEnabled>true</carriageCollisionEnabled>
+        <playerCollisionEnabled>true</playerCollisionEnabled>
+        <vehicleCollisionEnabled>true</vehicleCollisionEnabled>
+    </CollisionConfig>
+
+	<train_config_group name="metro_group">
+		<train_config_ref name="metro_config0" />
+		<train_config_ref name="metro_config1" />
+		<train_config_ref name="metro_config2" />
+		<train_config_ref name="metro_config3" />
+	</train_config_group>
+
+	<train_config_group name="freight_group">
+		<train_config_ref name="freight_config0" />
+		<train_config_ref name="freight_config1" />
+		<train_config_ref name="freight_config2" />
+		<train_config_ref name="freight_config3" />
+		<train_config_ref name="freight_config4" />
+	</train_config_group>
+
+</train_configs>
